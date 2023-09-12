@@ -24,6 +24,7 @@ root.render(
           <Routes>
             <Route path="/" element={<App />}></Route>
             <Route path="/manager" element={<Manager />}>
+              <Route index element={<Navigate to="user" replace={true} />} />
               <Route path="user" element={<User />}></Route>
             </Route>
             <Route
@@ -31,7 +32,6 @@ root.render(
               element={<Navigate to="/manager/user" replace={true} />}
             />
             <Route
-              path="/"
               index
               element={<Navigate to="/manager/user" replace={true} />}
             />
