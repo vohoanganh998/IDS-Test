@@ -1,6 +1,6 @@
 import ModalComponent from "../utils/ModalComponent";
 import { ModalType } from "../../types/Modal";
-import { Button, Col, Form, Row, Space, notification } from "antd";
+import { Button, Form, Space, notification } from "antd";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState, AppDispatch } from "../../store";

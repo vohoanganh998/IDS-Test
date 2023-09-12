@@ -8,7 +8,6 @@ import { useQuery as UseQuery } from "react-query";
 import { User } from "../types/User";
 import { useState as UseState } from "react";
 import ModalConfirm from "../components/user/ModalConfirm";
-import { PARAMS_GET_ALL } from "../services/type";
 import { useSearchParams as UseSearchParams } from "react-router-dom";
 
 function user() {
